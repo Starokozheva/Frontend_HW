@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    padding: 10px;
+    border: 2px solid blue;
+    height: 100px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    text-align: center;
+    background-color: rgb(31, 50, 61);
+    width: 900px;
+}
+
+h2 {
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.border-yellow {
+    border: 2px solid yellow;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.border-yellow:nth-child(3) {
+    grid-column: 7 / 8;
+}
