@@ -1,0 +1,36 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display:inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            display: inline-flex;
+            height: 40px;
+            width: 150px;
+            border: 2px solid #bfc0c098;
+            margin: 20px 20px 20px 20px;
+            color: #0f0f0f;
+            font-size: 1.3em;
+            letter-spacing: 1.5px;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.1), inset 0 -8px 25px -1px rgba(255, 255, 255, 0.9), inset 0 8px 20px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(255,255,255,0.6);
+        }
+        p {
+            height: 20px;
+            width: 150px;
+            background-color: #bfc0c098;
+            display: flex;
+            margin: 20px 20px 20px 20px;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            font-size: 1.3em;
+            box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.1), inset 0 8px 20px 0 rgba(0,0,0,0.2), inset 0 0 5px 1px rgba(255,255,255,0.6);
+        }
