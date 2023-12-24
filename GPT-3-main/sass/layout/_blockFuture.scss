@@ -1,0 +1,50 @@
+#blockFuture {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    
+    
+    #theFuture {
+      margin: 150px 0 340px 0;
+      max-width: 490px;
+      max-height: 180px;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 45px;
+      word-wrap: break-word;
+      background: linear-gradient(100deg, rgb(178, 119, 212) 10%, #f38005 160%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    #block_benefit {
+      margin: 140px 70px 0 60px;
+      
+      .benefit {
+        h5 {
+          color: white;
+          font-size: 18px;
+          font-weight: 800;
+          line-height: 24px;
+          word-wrap: break-word;
+          max-width: 170px;
+          margin: 0 0 50px 0;
+        }
+      }
+    }
+
+    #benefitText {
+      max-width: 385px;
+      margin: 145px 0 0 0;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+
+      p {
+        height: 100px;
+        margin: 0 0 20px 0;
+      }
+    }
+  }

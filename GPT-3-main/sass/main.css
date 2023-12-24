@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #040c18;
+  font-family: "Manrope", sans-serif;
+}
+
+p {
+  color: #81afdd;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  background: none;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+.btn.btn-orange {
+  background: #ff4820;
+  border-radius: 5px;
+}
+.btn.btn-dark {
+  background: black;
+  border-radius: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header .nav {
+  display: flex;
+  gap: 68px;
+}
+.header .nav .menu a {
+  color: #fff;
+  margin-right: 34px;
+}
+@media (max-width: 980px) {
+  .header .nav .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background: #042c54;
+    padding: 25px;
+  }
+}
+.header .burger-menu {
+  display: none;
+}
+@media (max-width: 980px) {
+  .header .burger-menu {
+    display: block;
+    filter: contrast(0);
+    width: 50px;
+  }
+}
+
+.show {
+  display: flex !important;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 980px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 980px) {
+  .main .col-1 {
+    order: 2;
+  }
+}
+.main .col-1 .gradient {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px;
+  margin: 70px 0;
+  background: linear-gradient(100deg, rgb(178, 119, 212) 10%, #f38005 145%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main .col-1 p {
+  font-size: 20px;
+}
+.main .col-1 .form {
+  display: flex;
+  margin-top: 36px;
+}
+.main .col-1 .form input {
+  color: #3D6184;
+  font-size: 20px;
+  background: #052d56;
+  border-radius: 5px 0px 0px 5px;
+  width: 60%;
+  border: none;
+  padding: 7px;
+}
+.main .col-1 .form .btn {
+  border-radius: 0 5px 5px 0;
+}
+.main .col-1 .people {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 40px;
+}
+.main .col-1 .people img {
+  width: 33%;
+}
+.main .col-1 .people-text {
+  font-size: 12px;
+  color: #fff;
+}
+.main .col-2 img {
+  width: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin: 130px auto;
+}
+.content .footer {
+  width: 100%;
+  height: 25px;
+}
+.content .footer .companies {
+  display: flex;
+}
+.content .footer .companies .icon {
+  margin-right: 50px;
+  height: 24px;
+  width: 100px;
+}
+
+#block {
+  display: block;
+  background: #042c54;
+  height: 658;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+#block #what_is {
+  display: block;
+  padding: 30px 0 120px 50px;
+}
+#block #what_is .rectangle {
+  margin-bottom: 6px;
+}
+#block #what_is .title {
+  color: white;
+  font-size: 24px;
+}
+#block #what_is .gpt_content {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 730px;
+  font-weight: 500;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+#block #possibilities {
+  background: linear-gradient(100deg, rgb(178, 119, 212) 10%, #f38005 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  padding: 0 0 50px 50px;
+}
+#block #advantages {
+  display: flex;
+  padding: 0 0px 40px 55px;
+}
+#block #advantages .advantages-block {
+  color: white;
+  font-size: 24px;
+  justify-content: space-between;
+  width: 340px;
+  margin-right: 50px;
+}
+#block #advantages .advantages-block h5 {
+  padding: 5px 0 45px 0;
+  font-size: 24px;
+}
+#block #advantages .advantages-block p {
+  font-weight: 500;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 980px) {
+  #block #what_is .gpt_content {
+    position: relative;
+    margin-left: 50px;
+  }
+}
+#blockFuture {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+}
+#blockFuture #theFuture {
+  margin: 150px 0 340px 0;
+  max-width: 490px;
+  max-height: 180px;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 45px;
+  word-wrap: break-word;
+  background: linear-gradient(100deg, rgb(178, 119, 212) 10%, #f38005 160%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#blockFuture #block_benefit {
+  margin: 140px 70px 0 60px;
+}
+#blockFuture #block_benefit .benefit h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  word-wrap: break-word;
+  max-width: 170px;
+  margin: 0 0 50px 0;
+}
+#blockFuture #benefitText {
+  max-width: 385px;
+  margin: 145px 0 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+#blockFuture #benefitText p {
+  height: 100px;
+  margin: 0 0 20px 0;
+}
+
+#myApps {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+}
+#myApps #imgMyApps {
+  margin-bottom: 150px;
+}
+#myApps #textMyApps {
+  margin: 270px 0 0 0;
+}
+#myApps #textMyApps #possibilities-2 {
+  background: linear-gradient(100deg, rgb(178, 119, 212) 20%, #f38005 160%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 45px;
+  max-width: 420px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+#myApps #textMyApps p {
+  font-size: 16px;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 480px;
+  height: 120px;
+}
+
+#getStarted {
+  margin: 0 auto;
+  margin-bottom: 140px;
+  width: 100%;
+  max-width: 1170px;
+  height: 173px;
+  border-radius: 11px;
+  display: flex;
+  background: linear-gradient(100deg, rgb(178, 119, 212) 20%, #f38005 150%);
+}
+#getStarted h3 {
+  color: black;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 45px;
+  word-wrap: break-word;
+  margin: 65px 90px 36px 46px;
+}
+#getStarted button {
+  width: 180px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 30px;
+  background: black;
+  border-radius: 42px;
+  border: 0;
+  margin: 57px 37px 56px 140px;
+}/*# sourceMappingURL=main.css.map */

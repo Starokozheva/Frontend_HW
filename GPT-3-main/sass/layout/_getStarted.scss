@@ -1,0 +1,32 @@
+#getStarted {
+    margin: 0 auto;
+    margin-bottom: 140px;
+    width: 100%;
+    max-width: 1170px;
+    height: 173px;
+    border-radius: 11px;
+    display: flex;
+    background: linear-gradient(100deg, rgb(178, 119, 212) 20%, #f38005 150%);
+
+    h3 {
+        color: black;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 45px;
+        word-wrap: break-word;
+        margin: 65px 90px 36px 46px;
+    }
+
+    button {
+        width: 180px;
+        height: 60px;
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 30px;
+        background: black;
+        border-radius: 42px;
+        border: 0;
+        margin: 57px 37px 56px 140px;
+    }
+}

@@ -1,0 +1,36 @@
+#myApps {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+
+    #imgMyApps {
+        margin-bottom: 150px;
+    }
+
+    #textMyApps {
+        margin: 270px 0 0 0;
+
+        #possibilities-2 {
+            background: linear-gradient(100deg, rgb(178, 119, 212) 20%, #f38005 160%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 34px;
+            font-weight: 800;
+            line-height: 45px;
+            max-width: 420px;
+            height: 90px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: Manrope;
+            font-weight: 400;
+            line-height: 30px;
+            max-width: 480px;
+            height: 120px;
+        }
+    }
+}
